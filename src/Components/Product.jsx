@@ -20,9 +20,10 @@ const Product = () => {
     color:blue;`
     let [dataArray, setDataArray] = React.useState([]);
 
-  let [filterArray, setFilterArray] = React.useState([]);
+  // let [filterArray, setFilterArray] = React.useState([]);
 
-  let [filterOn, setFilterOn] = React.useState(false);
+  // let [filterOn, setFilterOn] = React.useState(false);
+  
     React.useEffect(() => {
         getData();
       }, []);
